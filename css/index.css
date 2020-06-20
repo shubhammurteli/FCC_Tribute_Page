@@ -1,0 +1,45 @@
+html{
+	margin: 0;
+	background:white;
+	text-align: center;
+	color: #333333;
+}
+#title{
+	padding: 2px;
+	font-size: 1.25rem;
+} 
+#title p {
+	font-size: 1.1rem;
+}
+#main{
+	background:#d9d9d9;
+	border-radius: 5px;
+	margin: 20px 10px;
+}
+#img-div{
+	background: white;
+}
+#image{
+	width: 100%;
+	display: block;
+}
+@media(max-width: 600px){
+ #image{
+ 	width: 100%;
+	}
+}
+#img-caption{
+	padding: 10px;
+	font-size: 1.5rem;
+}
+ul{
+	text-align: left;
+	display: table;
+}
+li{
+	padding: 10px;
+}
+#tribute-link{
+	font-size: 1.5rem;
+	color: black;
+}
